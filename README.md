@@ -13,3 +13,25 @@ build: make
 download: download
 build & download: make download
 ```
+
+*** code stucture ***
+```
+├── Core   
+│   ├── Inc
+│   └── Src
+├── Drivers
+│   ├── CMSIS
+│   └── STM32F4xx_HAL_Driver
+├── Hardware
+│   ├── Inc
+│   └── Src
+├── System
+│   ├── Inc
+│   └── Src
+└── User
+    ├── Inc
+    └── Src
+├── Makefile
+├── startup_stm32f407xx.s
+├── STM32F407ZGTx_FLASH.ld
+```
