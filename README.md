@@ -13,8 +13,7 @@ build: make
 download: download
 build & download: make download
 ```
-
-*** code stucture ***
+***code stucture***
 ```
 ├── Core   
 │   ├── Inc
